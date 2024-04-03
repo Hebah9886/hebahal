@@ -1,4 +1,6 @@
 <template>
+<div v-motion-fade >
+
 
 <div class="container-"><br><br><br><br>
   <h1 class="animate-charcter  " style="width: 170vh;">All Events</h1>
@@ -25,6 +27,7 @@
      </div>
    </div>
  </div>
+</div>
 </div>
 </template>
 

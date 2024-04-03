@@ -1,4 +1,6 @@
 <template>
+  <div v-motion-slide-left>
+
   <div>
     <div class="container">
       <div class="row justify-content-center">
@@ -36,6 +38,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
   </div>
 </template>

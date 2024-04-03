@@ -11,3 +11,8 @@ app.use(router)
 
 app.mount('#app')
 
+import { MotionPlugin } from '@vueuse/motion'
+
+
+app.use(MotionPlugin)
+

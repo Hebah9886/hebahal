@@ -1,6 +1,9 @@
 <template  >
 <div class="container text-center ">
-  <div id="app">
+  <div id="app" v-motion="'custom'"
+    :initial="{ opacity: 0, y: 100 }"
+    :enter="{ opacity: 1, y: 0 }"
+    :variants="{ custom: { scale: 2 } }">
     <header class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <router-link to="/" class="navbar-brand">Home</router-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
